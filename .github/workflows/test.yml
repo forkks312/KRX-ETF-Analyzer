@@ -1,0 +1,12 @@
+name: KRX ETF Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Test system
+        run: echo "KRX ETF Analyzer is working"
